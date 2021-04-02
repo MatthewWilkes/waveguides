@@ -1,0 +1,24 @@
+[package]
+name = "waveguides"
+version = "0.1.0"
+authors = ["Matthew Wilkes <git@matthewwilkes.name>"]
+edition = "2018"
+
+[lib]
+name = "waveguides"
+path = "src/lib.rs"
+
+[[bin]]
+name = "waveguides-fft"
+path = "src/bin/fft.rs"
+
+[[bin]]
+name = "waveguides-decimate"
+path = "src/bin/decimate.rs"
+
+[dependencies]
+tui = "0.14.0"
+rustfft = "5.0.1"
+itertools-num = "0.1.3"
+termion = "*"
+rand = "*"

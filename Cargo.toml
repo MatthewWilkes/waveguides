@@ -9,6 +9,10 @@ name = "waveguides"
 path = "src/lib.rs"
 
 [[bin]]
+name = "waveguides-carrier"
+path = "src/bin/carrier.rs"
+
+[[bin]]
 name = "waveguides-fft"
 path = "src/bin/fft.rs"
 

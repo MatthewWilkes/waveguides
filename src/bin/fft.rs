@@ -20,7 +20,7 @@ use tui::style::{Style, Color, Modifier};
 use itertools_num::linspace;
 use rustfft::{FftPlanner, num_complex::Complex};
 
-use waveguides::radio::{Capture, IQSamples};
+use waveguides::radio::{IQSamples};
 
 
 const FFT_SAMPLE_COUNT: usize = 256000;
